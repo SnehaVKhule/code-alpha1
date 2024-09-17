@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-content">
+                <img src="resume2.jpg" alt="Profile Picture" class="profile-img">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Sneha Khule a web developer with a passion for creating interactive and engaging websites. I specialize in HTML, CSS, and JavaScript, and I love working on projects that push the boundaries of web design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">React</div>
+                <div class="skill-item">Node.js</div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <h3>Smog level alerting system</h3>
+                    <p>
+                        Smog is an example of air pollution that is visible to the naked eye and capable of standardized measures that have been created, such as the air quality index, also called the pollution standards index. The air quality index allows for the comparison of pollution levels in different cities etc.
+                        </p>
+                </div>
+                <div class="project-card">
+                    <h3>Kitchen waste water harvesting</h3>
+                    <p>
+                        Recharging ground water level has always been a challenge. Rain water harvesting has a peak during monsoon and most of the time, in most of the areas it’s not so effective. Kitchen waste water has comparatively less impurities and contaminations and if harvested separately, can lead to a more sustainable technique to recharge ground water levels. Societies and big houses can be required to separate kitchen and toilet waste water. With selection of proper bio-reactors, algae, biochemicals, some useful by-products can also be made like some useful gases, fuel etc..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
